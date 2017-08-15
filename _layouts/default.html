@@ -103,13 +103,10 @@
 		    while (currentPoint.x < width){
 			    var styleValues = new Array(3)
 			    colorGaps.forEach(function (item, index) {
-				    console.log(index,startColorBd[index] + (nextPoint.x + prePoint.x)/width*item)
 				    styleValues[index] = Math.round(startColorBd[index] + (nextPoint.x + prePoint.x)/(2*width)*item).toString(16)
 				    styleValues[index] = styleValues[index].length==1?'0'+styleValues[index]:styleValues[index]
 			    })
-			    console.log(styleValues)
 			    var style = '#' + styleValues[0] + styleValues[1] + styleValues[2]
-			    console.log(style)
 			    fillTr(prePoint, currentPoint, nextPoint, style)
 
 			    for (var i in prePoint){

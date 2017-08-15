@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "用初中的数学，写一个图片预览器（react-native）!"
+title:  "用初中的数学，写一个图片预览器（react-native)"
 date:   2017-08-8 17:46:18 +0800
 categories: F-E, react, react-native
 published: true
