@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+<style>
+  #bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    z-index: -10;
+  }
+</style>
+  <body>
+
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include footer.html %}
+    <canvas id="bg">
+      <p>老铁，你的浏览器不支持canvas啊</p>
+    </canvas>
+
+    <script>
+	    // 设置canvas大小
+	    var canvas = document.getElementById('bg')
+	    const WIDTH = window.innerWidth
+	    const HEIGHT = window.innerHeight
+	    canvas.width = WIDTH
+	    canvas.height = HEIGHT
+
+	    var ctx = canvas.getContext('2d')
+
+	    /*
+        * 随机放置一条带带
+        * 颜色只接受 rgb格式的哦 (*^__^*)
+        * prams:
+        * ctx - context(2d) obj
+        * startColor - only accept rgb format
+        * endColor - only accept rbg format
+        * width -
+        * height -
+        * */
+	    var setBelt = function(ctx ,startColor, endColor, width, height) {
+
+		    var colorGaps = new Array(3)
+
+		    var startColorBd = startColor.slice(4,-1).split(',')
+		    startColorBd.forEach(function (item,index) {
+			    startColorBd[index] = item*1
+		    })
+		    var endColorBd = endColor.slice(4,-1).split(',')
+		    endColorBd.forEach(function (item,index) {
+			    colorGaps[index] = item*1 - startColorBd[index]
+		    })
+
+		    console.log(colorGaps,startColorBd)
+		    const MAX_GAP_Y = height/5
+		    const MAX_GAP_X = width/10
+
+		    // 设置初始数据
+		    var prePoint = {
+			    x: 0,
+			    y: Math.random() * height
+		    }
+
+		    var crAY = (Math.random()-0.5)*2*MAX_GAP_Y,
+			    nxAy = (Math.random()-0.5)*2*MAX_GAP_Y
+
+		    var currentPoint = {
+			    x: 0,
+			    y: ((prePoint.y + crAY) <= 0|| (prePoint.y + crAY) >= height)?
+				    (prePoint.y - crAY)
+				    :(prePoint.y + crAY)
+		    }
+
+		    var nextPoint = {
+			    x: currentPoint.x + Math.random()*MAX_GAP_X,
+			    y: ((currentPoint.y + nxAy) <= 0|| (currentPoint.y + nxAy) >= height)?
+				    (currentPoint.y - nxAy)
+				    :(currentPoint.y + nxAy)
+		    }
+
+
+		    var fillTr = function(prePoint, currentPoint, nextPoint, style) {
+			    ctx.fillStyle = style
+			    ctx.beginPath()
+			    ctx.moveTo(prePoint.x, prePoint.y)
+			    ctx.lineTo(currentPoint.x, currentPoint.y)
+			    ctx.lineTo(nextPoint.x, nextPoint.y)
+			    ctx.closePath()
+			    ctx.fill()
+		    }
+		    ctx.globalAlpha = 0.7
+		    while (currentPoint.x < width){
+			    var styleValues = new Array(3)
+			    colorGaps.forEach(function (item, index) {
+				    console.log(index,startColorBd[index] + (nextPoint.x + prePoint.x)/width*item)
+				    styleValues[index] = Math.round(startColorBd[index] + (nextPoint.x + prePoint.x)/(2*width)*item).toString(16)
+				    styleValues[index] = styleValues[index].length==1?'0'+styleValues[index]:styleValues[index]
+			    })
+			    console.log(styleValues)
+			    var style = '#' + styleValues[0] + styleValues[1] + styleValues[2]
+			    console.log(style)
+			    fillTr(prePoint, currentPoint, nextPoint, style)
+
+			    for (var i in prePoint){
+				    prePoint[i] = currentPoint[i]
+				    currentPoint[i] = nextPoint[i]
+			    }
+
+			    nextPoint.x = currentPoint.x + Math.random()*MAX_GAP_X
+			    var addTemp = (Math.random()-0.5)*2*MAX_GAP_Y
+			    var yTemp = currentPoint.y + addTemp
+			    if (yTemp <= 0 || yTemp >= height){
+				    nextPoint.y -= addTemp
+			    }else {
+				    nextPoint.y = yTemp
+			    }
+		    }
+
+	    }
+
+	    // 随机生成rgb颜色
+	    var createRandomColorRgb = function(){
+		    return 'rgb(' +
+			    [
+				    Math.random()*255,
+				    Math.random()*255,
+				    Math.random()*255
+			    ].toString() + ')'
+
+	    }
+
+	    //    setBelt(ctx, 'rgb(255,0,0)','rgb(255,255,22)', WIDTH, HEIGHT)
+
+	    setBelt(ctx, createRandomColorRgb(),createRandomColorRgb(), WIDTH, HEIGHT)
+	    canvas.onclick = function () {
+		    ctx.clearRect(0, 0, WIDTH, HEIGHT)
+		    setBelt(ctx, createRandomColorRgb(),createRandomColorRgb(), WIDTH, HEIGHT)
+	    }
+
+
+    </script>
+  </body>
+
+</html>

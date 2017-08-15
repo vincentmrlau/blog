@@ -1,0 +1,45 @@
+<footer class="site-footer">
+  <style>
+    .contact-list img{
+      height: 20px;
+      margin-right: 5px;
+    }
+    .social-media-list img{
+      height: 20px;
+      margin-right: 5px;
+    }
+  </style>
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+            {% if site.email %}
+            <li><img src="../assets/email.png"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {% endif %}
+            {% if site.wechat %}
+            <li><img src="../assets/wx.png"><a>{{ site.wechat }}</a></li>
+            {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-5">
+        <ul class="social-media-list">
+          <li>COMMUNITY</li>
+          {% for item in site.moreSite %}
+            <li><img src="{{item.icon}}"><a href="{{item.href}}">{{item.name}}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
