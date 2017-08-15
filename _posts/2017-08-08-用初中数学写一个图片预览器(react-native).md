@@ -2,7 +2,8 @@
 layout: post
 title:  "用初中的数学，写一个图片预览器（react-native)"
 date:   2017-08-8 17:46:18 +0800
-categories: F-E, react, react-native
+categories:
+tags: F-E react react-native
 published: true
 ---
 [![](https://img.shields.io/badge/Github-parsing-green.svg)](https://github.com/vincentmrlau/react-native-single-image-zoom-viewer)[![](https://img.shields.io/badge/demo-parsing-orange.svg)](https://github.com/vincentmrlau/react-native-single-image-zoom-viewer-demo)

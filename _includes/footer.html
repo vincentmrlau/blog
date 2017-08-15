@@ -29,12 +29,19 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-5">
+      <div class="footer-col footer-col-2">
         <ul class="social-media-list">
           <li>COMMUNITY</li>
           {% for item in site.moreSite %}
-            <li><img src="{{site.baseurl}}{{item.icon}}"><a href="{{item.href}}">{{item.name}}</a></li>
+            <li><img src="{{site.baseurl}}{{item.icon}}"><a href="{{item.href}}" target="_blank">{{item.name}}</a></li>
           {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-col footer-col-3">
+        <ul class="contact-list">
+          <li>MORE</li>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <li>update at: {{site.time|date: date_format}}</li>
         </ul>
       </div>
 

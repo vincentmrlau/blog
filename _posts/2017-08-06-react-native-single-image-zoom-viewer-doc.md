@@ -2,7 +2,8 @@
 layout: post
 title:  "react-native-single-image-zoom-viewer-document"
 date:   2017-08-6 17:46:18 +0800
-categories: F-E, react, react-native, components
+categories:
+tags: F-E react react-native components
 published: true
 ---
 
