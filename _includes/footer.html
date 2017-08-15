@@ -21,10 +21,10 @@
             {% endif %}
             </li>
             {% if site.email %}
-            <li><img src="../assets/email.png"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><img src="{{site.baseurl}}/assets/email.png"><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
             {% endif %}
             {% if site.wechat %}
-            <li><img src="../assets/wx.png"><a>{{ site.wechat }}</a></li>
+            <li><img src="{{site.baseurl}}/assets/wx.png"><a>{{ site.wechat }}</a></li>
             {% endif %}
         </ul>
       </div>
@@ -33,7 +33,7 @@
         <ul class="social-media-list">
           <li>COMMUNITY</li>
           {% for item in site.moreSite %}
-            <li><img src="{{item.icon}}"><a href="{{item.href}}">{{item.name}}</a></li>
+            <li><img src="{{site.baseurl}}{{item.icon}}"><a href="{{item.href}}">{{item.name}}</a></li>
           {% endfor %}
         </ul>
       </div>

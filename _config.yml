@@ -12,22 +12,22 @@ moreSite: [
  {
   name: 'vincentmrlau',
   href: 'https://github.com/vincentmrlau',
-  icon: '../assets/github.png'
+  icon: '/assets/github.png'
  },
  {
    name: '文森特捞',
    href: 'https://github.com/vincentmrlau',
-   icon: '../assets/zhihu.png'
+   icon: '/assets/zhihu.png'
   },
   {
     name: 'vincent4fun',
     href: 'https://segmentfault.com/u/vincent4fun',
-    icon: '../assets/segmentfault.png'
+    icon: '/assets/segmentfault.png'
    },
    {
     name: 'vincentlau',
     href: 'https://www.npmjs.com/~vincentlau',
-    icon: '../assets/npm.png'
+    icon: '/assets/npm.png'
    }
 ]
 
