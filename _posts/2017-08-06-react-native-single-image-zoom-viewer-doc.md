@@ -7,8 +7,6 @@ tags: F-E react react-native components
 published: true
 ---
 
-# react-native-single-image-zoom-viewer
-
 [![](https://img.shields.io/badge/Github-parsing-green.svg)](https://github.com/vincentmrlau/react-native-single-image-zoom-viewer)
 [![](https://img.shields.io/badge/demo-parsing-orange.svg)](https://github.com/vincentmrlau/react-native-single-image-zoom-viewer-demo)
 
