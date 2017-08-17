@@ -10,7 +10,6 @@
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: white;
     z-index: -10;
   }
 </style>
@@ -140,7 +139,7 @@
 	    //    setBelt(ctx, 'rgb(255,0,0)','rgb(255,255,22)', WIDTH, HEIGHT)
 
 	    setBelt(ctx, createRandomColorRgb(),createRandomColorRgb(), WIDTH, HEIGHT)
-	    canvas.onclick = function () {
+	    document.body.onclick = function () {
 		    ctx.clearRect(0, 0, WIDTH, HEIGHT)
 		    setBelt(ctx, createRandomColorRgb(),createRandomColorRgb(), WIDTH, HEIGHT)
 	    }

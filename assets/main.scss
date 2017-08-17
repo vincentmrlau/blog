@@ -3,3 +3,62 @@
 ---
 
 @import "minima";
+
+html{
+  min-height: 100%;
+  background-color: #fff7d5;
+  position: relative;
+  body{
+    background: none;
+  }
+}
+.tag-container:after{
+  display: table;
+  content: '';
+  clear: both;
+}
+.tag{
+  text-decoration: none;
+  display: inline-block;
+  color: #888888;
+  border: 1px solid #888888;
+  float: left;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  transition: all 1s;
+  font-size: 12px;
+  cursor: pointer;
+}
+.tag:hover{
+  transform: scale(1.3);
+  text-decoration: none;
+  background-color: #888888;
+  color: white;
+}
+.site-header{
+  background-color: #ce463d;
+  .site-title, .page-link{
+    color: snow;
+  }
+  .site-title:hover, .page-link:hover{
+    text-decoration: none;
+  }
+}
+.post-list{
+  padding: 15px;
+  li{
+    h4{
+      .post-link{
+        color: #990000;
+        font-size: 18px;
+      }
+    }
+  }
+}
+.site-footer{
+  a{
+    color: #990000;
+  }
+}

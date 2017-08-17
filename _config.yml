@@ -38,8 +38,8 @@ menu: [
     href: '/timeline/'
   },
   {
-    name: 'Categories🎰',
-    href: '/categories/'
+    name: 'Tags🎰',
+    href: '/tags/'
   },
   {
     name: 'About👻',
