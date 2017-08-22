@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "vue-slide-options document"
-date:   2017-08-18 00:46:18 +0800
-tags: F-E vue component
+date:   2017-08-18 00:46:18
+tags:
+- front-end
+- vue
+- component
+excerpt: document of an component for vue.js
 published: true
 ---
 # vue-slide-options

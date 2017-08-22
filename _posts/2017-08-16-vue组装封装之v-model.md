@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "vue组件封装之v-model的支持"
-date:   2017-08-16 17:46:18 +0800
-tags: F-E vue 
+date:   2017-08-16 17:46:18
+tags:
+- front-end
+- vue
+excerpt: 聊一聊如何使vue组件支持v-model绑定数据
 published: true
 ---
 ![](https://raw.githubusercontent.com/vincentmrlau/remote-image-store/master/blog-vue-v-model.png)
@@ -11,7 +13,7 @@ published: true
 1. 在封装组件的时候，经常需要做表单的封装
 2. 为了是封装之后的组件用起来和原生组件一样的feel，那么就要支持`v-model`绑定属性了
 
-## `v-model`做了什么
+## v-model做了什么
 > `v-model`其实是一个语法糖
 
 1. 接收一个`value`苏醒
@@ -28,7 +30,7 @@ published: true
 	v-on:input="myValue = arguments[0]"
 >
 ```
-## 那么要使用`v-model`的组件应该怎么封装
+## 那么要使用v-model的组件应该怎么封装
 假设已经封装了一个支持使用`v-model`的组件`selector`
 
 ```javaScript
