@@ -9,7 +9,7 @@ tags:
 excerpt: document of an component for vue.js
 published: true
 ---
-# vue-slide-options
+## vue-slide-options
 > dependence: webpack, vue-loader
 
 ![](https://raw.githubusercontent.com/vincentmrlau/remote-image-store/master/vue-slide-options.gif)
