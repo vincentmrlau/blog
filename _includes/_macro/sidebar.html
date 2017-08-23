@@ -33,12 +33,11 @@
                src="{% assign default_avatar = site.images | append: '/avatar.gif' %}{{ site.avatar | default: default_avatar | relative_url }}"
                alt="{{ site.author }}" />
           <p class="site-author-name" itemprop="name">{{ site.author }}</p>
-          <p class="site-description motion-element" itemprop="description">{{ site.description }}</p>
-           <!--{% if site.seo %}-->
-              <!--<p class="site-description motion-element" itemprop="description">{{ site.signature }}</p>-->
-           <!--{% else %}-->
-              <!---->
-          <!--{% endif %}-->
+           {% if site.seo %}
+              <p class="site-description motion-element" itemprop="description">{{ site.signature }}</p>
+           {% else %}
+
+          {% endif %}
         </div>
         <nav class="site-state motion-element">
 
@@ -92,7 +91,7 @@
           <!--</div>-->
         {% endif %}
 
-        <div class="links-of-author motion-element" style="text-align: left;padding-left: 50px">
+        <div class="links-of-author motion-element">
           {% if site.email %}
             <span class="links-of-author-item">
               <a href="mailto:{{site.email}}" target="_blank" title="{{ site.email }}">
