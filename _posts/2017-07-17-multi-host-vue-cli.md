@@ -1,15 +1,17 @@
 ---
 layout: post
-title:  "vue-multi-device-single-page"
+title:  "webpack的多环境打包生产环境（vue）"
 date:   2017-07-17 00:46:18
 categories:
 - front-end
 - vue
 - workflow
+- webpack
 tags:
 - front-end
 - vue
 - workflow
+- webpack
 excerpt: 有时候，根据架构的需要，我们需要在发布多个环境的包，这些包唯一不一样的只是api请求的域名和静态文件存放的地址，那么这个生产环境就可以有帮助
 published: true
 ---

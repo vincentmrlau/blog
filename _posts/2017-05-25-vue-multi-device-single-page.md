@@ -6,10 +6,12 @@ categories:
 - front-end
 - vue
 - workflow
+- webpack
 tags:
 - front-end
 - vue
 - workflow
+- webpack
 excerpt: vue多页-单页综合开发的开发环境配置，其中也有关于vue开发思路的阐述，这一部分现在（2017-08-20）已经有了全新的见解，请暂时忽略
 published: true
 ---
