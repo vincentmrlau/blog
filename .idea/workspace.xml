@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8f3a57a-389d-4067-8a2a-a20d661bce3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-17-multi-host-vue-cli.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-07-30-gulp-simple-workflow-multi-host.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/archive.html" afterPath="$PROJECT_DIR$/_includes/archive.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,36 +31,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archives/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_layouts/archive.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archive.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/archive.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017-05-25-vue-multi-device-single-page.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -77,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-16-web-3d-model-show-method.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-12-16-web-3d-model-show-method.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
@@ -92,22 +61,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-08-22-vue-scroll-refresh-loadmore-doc.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-08-22-vue-scroll-refresh-loadmore-doc.md">
+      <file leaf-file-name="2017-06-26-image-clipper.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="465">
-                <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <first_editor relative-caret-position="194">
+                <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -117,27 +76,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-08-16-vue组装封装之v-model.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-08-16-vue组装封装之v-model.md">
+      <file leaf-file-name="2017-07-30-gulp-simple-workflow-multi-host.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-07-30-gulp-simple-workflow-multi-host.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-08-18-vue-slide-options.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-08-18-vue-slide-options.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+              <first_editor relative-caret-position="165">
+                <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -214,6 +158,9 @@
         <option value="$PROJECT_DIR$/_includes/archive.html" />
         <option value="$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md" />
         <option value="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-17-multi-host-vue-cli.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-07-30-gulp-simple-workflow-multi-host.md" />
       </list>
     </option>
   </component>
@@ -366,12 +313,12 @@
       <workItem from="1503048542686" duration="1307000" />
       <workItem from="1503280576921" duration="598000" />
       <workItem from="1503392996815" duration="9077000" />
-      <workItem from="1503453140836" duration="1695000" />
+      <workItem from="1503453140836" duration="3043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51624000" />
+    <option name="totallyTimeSpent" value="52972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -424,9 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html" />
-    <entry file="file://$PROJECT_DIR$/_posts/2017-08-12-welcome-to-jekyll.markdown" />
-    <entry file="file://$PROJECT_DIR$/index.md" />
     <entry file="file://$PROJECT_DIR$/_includes/head.html" />
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -653,11 +597,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-multi-host-vue-cli.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+          <first_editor relative-caret-position="150">
+            <caret line="8" column="79" lean-forward="false" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="194">
+            <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor>
@@ -671,6 +628,32 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-07-30-gulp-simple-workflow-multi-host.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor>
