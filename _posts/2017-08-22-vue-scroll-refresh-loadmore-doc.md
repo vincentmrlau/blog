@@ -25,7 +25,7 @@ npm install vue-scroll-refresh-loadmore --save
 
 ### BASIC USE
 
-```HTML
+```html
 <scroller
       @on-refresh="refresh"
       @on-loadmore="loadmore"
