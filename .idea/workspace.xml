@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8f3a57a-389d-4067-8a2a-a20d661bce3a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-07-02-react-react-native-redux-react-navigation.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2017-06-17-swaming-emoji.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" afterPath="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,12 +30,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-07-02-react-react-native-redux-react-navigation.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-07-02-react-react-native-redux-react-navigation.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-02-react-react-native-redux-react-navigation.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="225">
                 <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-06-17-swaming-emoji.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-06-17-swaming-emoji.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="1215">
+                <caret line="65" column="83" lean-forward="false" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -94,7 +110,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -123,8 +139,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -138,23 +154,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="104">
-                <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="12" />
-                <folding />
-              </first_editor>
-              <second_editor>
-                <js_state />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-07-17-multi-host-vue-cli.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-07-17-multi-host-vue-cli.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="10" />
+              <first_editor relative-caret-position="209">
+                <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -193,9 +194,17 @@
       <find>footer</find>
       <find>disq</find>
       <find>tags</find>
+      <find>、</find>
+      <find>a.</find>
     </findStrings>
     <replaceStrings>
       <replace>var</replace>
+      <replace>.</replace>
+      <replace>.1.</replace>
+      <replace>1.</replace>
+      <replace>2.</replace>
+      <replace>3.</replace>
+      <replace>4.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -233,13 +242,14 @@
         <option value="$PROJECT_DIR$/_posts/2017-07-30-gulp-simple-workflow-multi-host.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-06-react-native-single-image-zoom-viewer-doc.md" />
         <option value="$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md" />
-        <option value="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-08-用初中数学写一个图片预览器(react-native).md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-16-vue组装封装之v-model.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-18-vue-slide-options.md" />
         <option value="$PROJECT_DIR$/_posts/2017-08-22-vue-scroll-refresh-loadmore-doc.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2016-07-02-react-react-native-redux-react-navigation.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-06-17-swaming-emoji.md" />
       </list>
     </option>
   </component>
@@ -428,12 +438,12 @@
       <workItem from="1503048542686" duration="1307000" />
       <workItem from="1503280576921" duration="598000" />
       <workItem from="1503392996815" duration="9077000" />
-      <workItem from="1503453140836" duration="6621000" />
+      <workItem from="1503453140836" duration="8544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56550000" />
+    <option name="totallyTimeSpent" value="58473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -486,7 +496,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html" />
     <entry file="file://$PROJECT_DIR$/assets/main.scss" />
     <entry file="file://$PROJECT_DIR$/_posts/2017-08-18-vue-slide-options-doc.md" />
     <entry file="file://$PROJECT_DIR$/_layouts/home.html" />
@@ -706,32 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="104">
-            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="12" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-08-08-用初中数学写一个图片预览器(react-native).md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -794,11 +777,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-02-react-react-native-redux-react-navigation.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="3" />
+          <first_editor relative-caret-position="225">
+            <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
             <folding />
           </first_editor>
           <second_editor>
@@ -807,11 +790,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-02-react-react-native-redux-react-navigation.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-05-25-vue-multi-device-single-page.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-26-image-clipper.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-12-16-web-3d-model-show-method.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-06-17-swaming-emoji.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1215">
+            <caret line="65" column="83" lean-forward="false" selection-start-line="65" selection-start-column="83" selection-end-line="65" selection-end-column="83" />
             <folding />
           </first_editor>
           <second_editor>

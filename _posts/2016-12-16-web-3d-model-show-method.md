@@ -6,6 +6,7 @@ categories:
 - front-end
 - three.js
 - components
+- canvas
 tags:
 - front-end
 - three.js
