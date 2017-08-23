@@ -2,6 +2,10 @@
 layout: post
 title:  "web使用three.js展示&操作外部的3D模型"
 date:   2016-12-16 00:46:18
+categories:
+- front-end
+- three.js
+- components
 tags:
 - front-end
 - three.js

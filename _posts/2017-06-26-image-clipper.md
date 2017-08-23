@@ -2,6 +2,10 @@
 layout: post
 title:  "IMAGE CLIPPER 图片裁剪器"
 date:   2017-06-26 00:46:18
+categories:
+- front-end
+- canvas
+- components
 tags:
 - front-end
 - canvas
