@@ -1,10 +1,9 @@
 ---
 title:  JS函数的传参传的是什么？
 date:   2017-09-11 17:50:18
-categories:
-- javascript
 tags:
 - javascript
+
 excerpt: 最近在要就python,在函数的内部修改该参数的时候，可能会影响外部的使用，类似C++的值传递和引用传递，JS应该也会有类似的情况。
 published: false
 ---

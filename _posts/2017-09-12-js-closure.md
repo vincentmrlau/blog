@@ -1,10 +1,9 @@
 ---
 title:  javaScipt的闭包
 date:   2017-09-12 17:50:18
-categories:
-- javascript
 tags:
 - javascript
+
 excerpt: 很久之前在stackoverflow看到的一个关于闭包的答案，翻译一下。
 published: false
 ---

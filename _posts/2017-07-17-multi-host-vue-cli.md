@@ -2,11 +2,6 @@
 layout: post
 title:  "webpack的多环境打包生产环境（vue）"
 date:   2017-07-17 00:46:18
-categories:
-- front-end
-- vue
-- workflow
-- webpack
 tags:
 - front-end
 - vue

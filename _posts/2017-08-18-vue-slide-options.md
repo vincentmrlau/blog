@@ -2,14 +2,10 @@
 layout: post
 title:  "vue-slide-options document"
 date:   2017-08-18 00:46:18
-categories:
-- front-end
-- vue
-- components
 tags:
 - front-end
 - vue
-- component
+- components
 excerpt: document of an component for vue.js
 published: true
 ---

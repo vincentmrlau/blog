@@ -2,14 +2,11 @@
 layout: post
 title:  "web使用three.js展示&操作外部的3D模型"
 date:   2016-12-16 00:46:18
-categories:
+tags:
 - front-end
 - three.js
 - components
 - canvas
-tags:
-- front-end
-- three.js
 excerpt: three.js的官方文档和例程给出的功能很多，但是很多web前端搬砖工的需求可能是展示建模师或者美术姐姐做出来的模型，或者对这些模型进行简单的操作（换纹理，换颜色，换模型），如果你的需求是这样，那么，小弟这里有个简单的小程序，各位大神可以看一下
 published: true
 ---

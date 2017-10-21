@@ -2,10 +2,6 @@
 layout: post
 title:  "gulp-simple-workflow-multi-host"
 date:   2017-07-30 00:46:18
-categories:
-- front-end
-- gulp
-- workflow
 tags:
 - front-end
 - gulp

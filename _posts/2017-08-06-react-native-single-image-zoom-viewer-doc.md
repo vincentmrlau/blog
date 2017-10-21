@@ -1,11 +1,6 @@
 ---
 title:  "react-native-single-image-zoom-viewer-document"
 date:   2017-08-6 17:46:18
-categories:
-- front-end
-- react
-- react-native
-- components
 tags:
 - front-end
 - react

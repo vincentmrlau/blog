@@ -2,16 +2,13 @@
 layout: post
 title:  "redux 以及react-navigation的应用 学习笔记"
 date:   2017-07-02 00:46:18
-categories:
+tags:
 - front-end
 - note
 - react
 - react-native
 - react-navigation
 - redux
-tags:
-- front-end
-- three.js
 excerpt: redux 和 react-navigation在react-native上的应用
 published: true
 ---

@@ -1,9 +1,6 @@
 ---
 title:  "vue组件封装之v-model的支持"
 date:   2017-08-16 17:46:18
-categories:
-- front-end
-- vue
 tags:
 - front-end
 - vue

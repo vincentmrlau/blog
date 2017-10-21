@@ -2,14 +2,11 @@
 layout: post
 title:  "vue-scroll-refresh-loadmore document"
 date:   2017-08-22 00:46:18
-categories:
-- front-end
-- vue
-- components
 tags:
 - front-end
 - vue
-- component
+- components
+
 excerpt: document of an component for vue.js
 published: true
 ---

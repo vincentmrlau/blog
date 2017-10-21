@@ -1,10 +1,9 @@
 ---
 title:  js的变量提升（hoisting）
 date:   2017-09-11 17:46:18
-categories:
-- javascript
 tags:
 - javascript
+
 excerpt: Hoisting 被认为是思考执行上下文（特别是创建和执行阶段）在JavaScript中如何工作的一般方式。但是，hoisting 可能会导致误解。例如，提升教导变量和函数声明被物理移动到编码的顶部，但这根本不是什么。真正发生的什么是在编译阶段将变量和函数声明放入内存中，但仍然保留在编码中键入的位置。 -- mdn
 published: true
 ---

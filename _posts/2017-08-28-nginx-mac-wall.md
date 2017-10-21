@@ -1,12 +1,10 @@
 ---
 title:  nginx被mac防火墙拦了😣
 date:   2017-08-28 17:46:18
-categories:
-- macOS
-- nginx
 tags:
 - macOS
 - nginx
+
 excerpt: 在mac上面开个nginx，结果死活局域网内死活进不来，解决一下
 published: true
 ---

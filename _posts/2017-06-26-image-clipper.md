@@ -2,13 +2,10 @@
 layout: post
 title:  "IMAGE CLIPPER 图片裁剪器"
 date:   2017-06-26 00:46:18
-categories:
-- front-end
-- canvas
-- components
 tags:
 - front-end
 - canvas
+- components
 excerpt: 这是一个基于canvas的图片裁剪器，支持缩放旋转移动等基本功能，支持手势操作，可配置克扩展。
 published: true
 ---

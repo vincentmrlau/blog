@@ -2,11 +2,6 @@
 layout: post
 title:  "vue-multi-device-single-page"
 date:   2017-05-25 00:46:18
-categories:
-- front-end
-- vue
-- workflow
-- webpack
 tags:
 - front-end
 - vue

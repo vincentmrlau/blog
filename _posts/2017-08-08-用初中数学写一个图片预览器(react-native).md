@@ -1,15 +1,11 @@
 ---
 title:  "用初中的数学，写一个图片预览器（react-native)"
 date:   2017-08-8 17:46:18
-categories:
-- front-end
-- react
-- react-native
-- components
 tags:
 - front-end
 - react
 - react-native
+- components
 excerpt: 谈一谈写一个图片预览器的基本思路
 published: true
 ---
