@@ -1,0 +1,19 @@
+
+.about-title{
+  text-align: center;
+}
+.about-tags {
+  text-align: center;
+  span{
+    position: relative;
+    display: inline-block;
+    margin: 5px 10px;
+    width: 60px;
+    align-items: center;
+    vertical-align: middle;
+    img{
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
+}
