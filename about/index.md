@@ -17,11 +17,11 @@ layout: layout
     * 定制数据读取【再编辑，后台查看定制定制数据】与保存
     * demo vedio
     <video controls preload="none">
-        <source src="/assets/datas/lejiang-tshite.mp4" type="video/mp4">
+        <source src="http://image.vincent4u.cn/IMG_1332.mp4" type="video/mp4">
         您的浏览器不支持 video 标签。
     </video>
     <video controls preload="none">
-        <source src="/assets/datas/lejiang-phone.mp4" type="video/mp4">
+        <source src="http://image.vincent4u.cn/IMG_1333.mp4" type="video/mp4">
         您的浏览器不支持 video 标签。
     </video>
 
