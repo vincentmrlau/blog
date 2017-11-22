@@ -25,4 +25,4 @@ published: true
 
 举例来说，统计一系列文档中的词频。文档数量规模很大，有1000万个文档，英文单词的总数可能只有3000（常用的）。那么input M=10000000，output N=3000。于是，我们搞了10000个PC做Mapper，100个PC做Reducer。每个Mapper做1000个文档的词频统计，统计之后把凡是和同一个word相关的统计中间结果传给同一个Reducer做汇总。比如某个Reducer负责词表中前30个词的词频统计，遍历10000个PC，这10000个Mapper PC把各自处理后和词表中前30个词汇相关的中间结果都传给这个Reducer做最终的处理分析。至此MapReduce最核心的流程已经说明白了。其实MapReduce讲的就是分而治之的程序处理理念，把一个复杂的任务划分为若干个简单的任务分别来做。另外，就是程序的调度问题，哪些任务给哪些Mapper来处理是一个着重考虑的问题。MapReduce的根本原则是信息处理的本地化，哪台PC持有相应要处理的数据，哪台PC就负责处理该部分的数据，这样做的意义在于可以减少网络通讯负担。最后补上一副经典的图来做最后的补充，毕竟，图表往往比文字更有说服力。
 
-<img src="https://pic4.zhimg.com/50/f7fbb747fc3e7a42112f1ccf82cfa1c7_hd.jpg" data-rawwidth="979" data-rawheight="633" class="origin_image zh-lightbox-thumb" width="979" data-original="https://pic4.zhimg.com/f7fbb747fc3e7a42112f1ccf82cfa1c7_r.jpg">
+<img src="https://pic4.zhimg.com/50/f7fbb747fc3e7a42112f1ccf82cfa1c7_hd.jpg">
