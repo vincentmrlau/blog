@@ -2,7 +2,12 @@
 title: ABOUT
 layout: layout
 ---
+[Segmentfault](https://segmentfault.com/u/vincent4fun) |
+[GitHub:](https://github.com/vincentmrlau) |
+[知乎](https://www.zhihu.com/people/vincent4u.cn/activities) |
+[NPM](https://www.npmjs.com/~vincentlau)
 
+---
 * 华南理工大学自动化（2015）
 * 嵌入式开发（实习）
 * 前端开发(web,react-native)
