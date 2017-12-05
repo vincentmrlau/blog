@@ -2,6 +2,7 @@
 title: ABOUT
 layout: layout
 ---
+
 [Segmentfault](https://segmentfault.com/u/vincent4fun) |
 [GitHub:](https://github.com/vincentmrlau) |
 [知乎](https://www.zhihu.com/people/vincent4u.cn/activities) |
