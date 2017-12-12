@@ -1,5 +1,5 @@
 ---
-title:  数据结构与算法的javaScript描述-前言
+title:  数据结构与算法的javaScript描述-前言[苦逼的失业中年]
 date:   2017-12-12 11:11:18
 tags:
 - js
