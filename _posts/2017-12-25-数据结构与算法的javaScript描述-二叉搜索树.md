@@ -84,7 +84,7 @@ class BST {
 
 ![](https://github.com/vincentmrlau/remote-image-store/raw/master/bst-insert.png)
 
-#### 带有插入方法的`BST`js的描述如下
+#### 带有插入方法的BSTjs的描述如下
 
 ```javaScript
 class BST {
@@ -205,7 +205,7 @@ console.log(JSON.stringify(bst))
 ```
 插入数据之后我们是通过nodejs的logger来查看`bst`，事实上，我们还需要其他的遍历方法来查看`bst`
 
-### `BST`的遍历
+### BST的遍历
 > 遍历二叉树通常有三种遍历方法，分别是中序、先序和后序，他们的遍历路径不一样
 
 #### 中序遍历
